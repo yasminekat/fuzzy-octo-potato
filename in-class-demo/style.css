@@ -10,12 +10,7 @@ html, body {
     height: 100%;
 }
 
-.container{
+.container {
     background-color: lemonchiffon;
+    height: 100%;
 }
-
-
-body {
-    background: tomato;
-}
-
