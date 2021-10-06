@@ -1,0 +1,22 @@
+body {
+    background-color: lemonchiffon;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+/*for flex direction or column or row-reverse*/
+/*for justify content: or flex-end, or flex-reverse, or space-around, or space between, or spce evenly...*/
+/* for now ignore align-items- or stretch...*/
+
+.item {
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    font-size: 42px;
+}
