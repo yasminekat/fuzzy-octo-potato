@@ -14,3 +14,13 @@ html, body {
     background-color: lemonchiffon;
     height: 100%;
 }
+
+header {
+    height: 20%;
+    background-color: tomato;
+}
+
+nav {
+    height: 10%;
+    background-color: blue;
+}
