@@ -29,3 +29,19 @@ main {
     height: 60%;
     background-color: blanchedalmond;
 }
+
+aside {
+    width: 20%;
+    height: 100%;
+    background-color: coral;
+    display: inline-block;
+    float: left;
+}
+
+section {
+    width: 60%;
+    height: 100%;
+    background-color: darkseagreen;
+    display: inline-block;
+    float: left;
+}
