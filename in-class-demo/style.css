@@ -20,7 +20,12 @@ header {
     background-color: tomato;
 }
 
-nav {
+nav, footer {
     height: 10%;
     background-color: blue;
+}
+
+main {
+    height: 60%;
+    background-color: blanchedalmond;
 }
