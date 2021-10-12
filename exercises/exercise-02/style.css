@@ -34,7 +34,8 @@
     font-family: "Roboto", sans-serif;
     text-transform: capitalize;
     color: beige;
-    font-size: 7em;
+    display:inline-flex;
+    font-size: 6em;
     line-height: 3em;
   }
   
