@@ -18,7 +18,6 @@
   
   .main {
     display: inline-block;
-    float: center;
     width: 70%;
     height: 100%;
     padding: 24px;
@@ -51,10 +50,11 @@
     font-size: 1em;
   }
   
-  .item {
-    display: flex;
-    float: right;
-    flex-direction: column;
+  .box {
+    display: inline-block;
+    position: fixed;
+    margin-right: 4em;
+    margin-top: 4em;
     height: 3cm;
     width: 3cm;
   }
