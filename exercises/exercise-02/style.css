@@ -50,11 +50,3 @@
     font-size: 1em;
   }
   
-  .box {
-    display: inline-block;
-    position: fixed;
-    margin-right: 4em;
-    margin-top: 4em;
-    height: 3cm;
-    width: 3cm;
-  }
