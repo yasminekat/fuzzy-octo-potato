@@ -25,7 +25,7 @@
   }
   
   .container {
-    display: inline-flexbox;
+    display: flex;
     flex-wrap: wrap-reverse;
     padding: 20px 40px;
     width: 75%;
