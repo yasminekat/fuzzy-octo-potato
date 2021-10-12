@@ -51,3 +51,10 @@
     font-size: 1em;
   }
   
+  .item {
+    display: flex;
+    float: right;
+    flex-direction: column;
+    height: 3cm;
+    width: 3cm;
+  }
