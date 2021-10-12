@@ -18,7 +18,7 @@
   
   .main {
     display: inline-block;
-    float: left;
+    float: center;
     width: 70%;
     height: 100%;
     padding: 24px;
@@ -42,7 +42,7 @@
     color: #d3d3d3;
     font-family: "Libre Baskerville", serif;
     font-style: italic;
-    letter-spacing: 2px;
-    font-size: 2em;
+    letter-spacing: 1.5px;
+    font-size: 1em;
   }
   
