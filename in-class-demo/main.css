@@ -1,12 +1,26 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    height: 100%
+}
+
 body {
     background-color: lemonchiffon;
 }
 
 .container {
     display: flex;
+    height: 100%;
     flex-direction: row;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
 }
 
 /*for flex direction or column or row-reverse*/
@@ -19,4 +33,12 @@ body {
     height: 100px;
     background-color: tomato;
     font-size: 42px;
+}
+
+
+/* .iten: nth-child(#) { order: 3; } */
+
+.item:nth-child(3) {
+    flex-grow: 2;
+    background: green;
 }
