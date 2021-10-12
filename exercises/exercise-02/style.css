@@ -25,6 +25,8 @@
   }
   
   .container {
+    display: inline-flexbox;
+    flex-wrap: wrap-reverse;
     padding: 20px 40px;
     width: 75%;
     line-height: 1.68;
