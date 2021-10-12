@@ -26,6 +26,7 @@
   
   .container {
     display: inline-block;
+    flex-direction: row;
     flex-wrap: wrap-reverse;
     padding: 20px 40px;
     width: 50%;
