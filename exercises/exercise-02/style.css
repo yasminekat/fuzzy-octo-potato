@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* NOTE :: The <body> tag looks to its parent (the <html> tag) for how to scale the dynamic property, so the HTML element needs to have its height set as well. */
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.68em;
+  }
+  
+  .container {
+    height: 100%;
+    padding: 24px;
+  }
+  
+  .main {
+    display: inline-block;
+    float: left;
+    width: 70%;
+    height: 100%;
+    padding: 24px;
+  }
+  
+  .sidebar {
+    display: inline-block;
+    float: 30%;
+    height: 100%;
+    padding: 24px;
+  }
+  
+  .neon {
+    color: coral;
+    text-decoration: none;
+  }
+  
+  .register {
+    text-transform: uppercase;
+  }
+  
+  .social_border {
+    border: 1px solid coral;
+    padding: 0 2px;
+  }
+  
+  .underline {
+    border-bottom: 3px solid coral;
+    width: 45%;
+  }
