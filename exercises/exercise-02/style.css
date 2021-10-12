@@ -25,14 +25,15 @@
   }
   
   .container {
-    display: flex;
+    display: inline-block;
     flex-wrap: wrap-reverse;
     padding: 20px 40px;
-    width: 75%;
+    width: 50%;
     line-height: 1.68;
   }
   
   h1 {
+    display: flex;
     font-family: "Roboto", sans-serif;
     text-transform: capitalize;
     color: beige;
