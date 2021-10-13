@@ -1,3 +1,10 @@
+/*this applies from 0px to 480px --> MOBILE*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -6,7 +13,20 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    background: pink;
 }
 
+/*this applies to 480 px onwards*/
 
-@media screen (min-width: 600px)
+@media (min-width: 480px){
+    .container{
+        background: turquoise;
+
+    }
+}
+
+@media (min-width: 768px){
+    .container{
+        background: yellowgreen;
+    }
+}
