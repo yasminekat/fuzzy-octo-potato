@@ -1,8 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans&display=swap");
 
 body {
   font-family: "Open Sans", sans-serif;
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
 }
+
+
+@media screen (min-width: 600px)
