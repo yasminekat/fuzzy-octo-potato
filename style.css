@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 
+    box-sizing: border-box;
 }
 
 nav {
@@ -15,4 +15,20 @@ nav {
     list-style: none;
     background: tomato;
     line-height: 60px;
+}
+
+.container a{
+    text-decoration: none;
+    color: white;
+}
+
+li:hover{
+    animation:
+}
+
+@keyframes changeMe{
+    0%{background-color: tomato;}
+    50%{background-color: #cc000c;}
+    75%{background-color: #800000;}
+    100%{background-color: tomato;}
 }
