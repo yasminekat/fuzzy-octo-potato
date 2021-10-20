@@ -23,7 +23,7 @@ nav {
 }
 
 li:hover{
-    animation:
+    animation: changeMe 3s ease-in-out
 }
 
 @keyframes changeMe{
