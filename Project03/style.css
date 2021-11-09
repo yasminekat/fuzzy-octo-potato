@@ -43,10 +43,10 @@ a:hover{
     font-family: "roboto";
     width: 500px;
     height: 500px;
-    text-align: left;
-    justify-content: left;
-    align-items: left;
-    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70%;
     background: rgba(255, 72, 0, 0.753);
     
 }
