@@ -8,19 +8,19 @@ html, body{
     height: 100%;
     display: flex;
     align-items: center;
-    background-color:black;
+    background-color:#000000;
  
 }
 a, a:active, a:visited{
     text-decoration: none;
     color: white;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 70px;
     transition: font-size 0.5s ease, color 0.5s ease;
 }
 a:hover{
     text-decoration: none;
-    color:rgb(255, 166, 0);
+    color:#030A8C;
     font-size: 45px;
 }
 .square{
@@ -50,7 +50,7 @@ a:hover{
     background: rgba(255, 72, 0, 0.753);
     
 }
-.circle:active{
+.square:active{
     transform: scale(0.5);
     
 }
@@ -58,7 +58,3 @@ body {
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
 }
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
