@@ -13,15 +13,15 @@ html, body{
 }
 a, a:active, a:visited{
     text-decoration: none;
-    color: white;
+    color: #F20505;
     font-weight: bolder;
     font-size: 70px;
     transition: font-size 0.5s ease, color 0.5s ease;
 }
 a:hover{
     text-decoration: none;
-    color:#030A8C;
-    font-size: 45px;
+    color:#A61103;
+    font-size: 50px;
 }
 .square{
     display: flex;
@@ -29,10 +29,10 @@ a:hover{
     font-family: "roboto";
     width: 500px;
     height: 500px;
-    text-align: left;
-    justify-content: left;
-    align-items: left;
-    border-radius: 70%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
     background: rgb(0, 0, 0);
     transition: font-size 0.5s ease, background-color 0.5s ease,color 0.5s ease, transform 0.3s ease;
 }
