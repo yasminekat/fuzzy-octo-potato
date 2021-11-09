@@ -8,20 +8,20 @@ html, body{
     height: 100%;
     display: flex;
     align-items: stretch;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
  
 }
 a, a:active, a:visited{
     text-decoration: none;
     color: #A61103;
     font-weight: bolder;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 a:hover{
     text-decoration: none;
     color:#A61103;
-    font-size: 50px;
+    font-size: 30px;
 }
 .square{
     display: flex;
@@ -39,14 +39,14 @@ a:hover{
 .square:hover{
     transform: scale(1.1);
     display: flex;
-    margin: auto;
+    margin: 70%;
     font-family: "roboto";
     width: 500px;
     height: 500px;
     text-align: left;
     justify-content: left;
     align-items: left;
-    border-radius: 50%;
+    border-radius: 70%;
     background: rgba(255, 72, 0, 0.753);
     
 }
