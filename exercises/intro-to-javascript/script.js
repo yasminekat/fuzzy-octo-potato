@@ -1,5 +1,5 @@
 function sayHello() {
-    console
+    console.log()
 }
 
 let noun="cat";
