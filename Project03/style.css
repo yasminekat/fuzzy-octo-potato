@@ -26,7 +26,6 @@ a, a:active, a:visited{
     height: 500px;
     text-align: left;
     transition: all 0.5s;
-    /*transition: font-size 1s ease, background-color 1s ease,color 1s ease, transform 1s ease;*/
 }
 
 p{
@@ -37,13 +36,12 @@ p{
   }
 .square:hover{
     transform: scale(1.1);
-
-    
 }
+
 .square:active{
     transform: scale(0.5);
-    
 }
+
 body {
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
