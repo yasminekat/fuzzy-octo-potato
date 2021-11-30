@@ -6,48 +6,38 @@ html, body{
 }
 .container{
     height: 100%;
-    display: flex;
-    align-items: stretch;
-    background-color: rgb(255, 255, 255);
+    display:inline-block;
+    align-content: center;
  
 }
 a, a:active, a:visited{
     text-decoration: none;
-    color: #A61103;
-    font-weight: bolder;
-    font-size: 50px;
+      color:#A61103;
 }
 
-a:hover{
-    text-decoration: none;
-    color:#A61103;
-    font-size: 30px;
-}
 .square{
-    display: flex;
-    margin: auto;
+    position:absolute;
+    top:10%;
+    left:10%;
+    background-color:whitesmoke;
+    display:inline-block;
     font-family: "roboto";
     width: 500px;
     height: 500px;
     text-align: left;
-    justify-content: left;
-    align-items: left;
-    border-radius: 70%;
-    background: white(0, 0, 0);
-    //*transition: font-size 1s ease, background-color 1s ease,color 1s ease, transform 1s ease;*//
+    transition: all 0.5s;
+    /*transition: font-size 1s ease, background-color 1s ease,color 1s ease, transform 1s ease;*/
 }
+
+p{
+  font-family: "roboto";
+  font-size: 40px;
+  font-weight: lighter;
+  color:#A61103;
+  }
 .square:hover{
     transform: scale(1.1);
-    display: flex;
-    margin: 70%;
-    font-family: "roboto";
-    width: 500px;
-    height: 500px;
-    text-align: left;
-    justify-content: left;
-    align-items: left;
-    border-radius: 70%;
-    background: rgba(255, 72, 0, 0.753);
+
     
 }
 .square:active{
