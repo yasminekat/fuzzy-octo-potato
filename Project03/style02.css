@@ -1,30 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
-    background-color: whitesmoke;
+
 }
 
 nav{
-    height:10px;
-    background-color: transparent;
+    height:20px;
+    background-color: #A61103;
+    position:fixed;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index:1;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background: #A61103;
+    line-height: 20px;
+    text-decoration: none;
 
 }
 
+.container{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-align: y mandatory;
+
+}
+
+.container a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "roboto";
+    font-weight: lighter;
+    width: 90%;
+    justify-content: left;
+}
+
+li{
+    padding: 10px;
+    background: #A61103;
+    font-weight: bolder;
+
+}
+
+li hover{
+    transform: scale(2);
+}
+
+/*for images..*/
+section #PROLOGUE{
+background: url(images/the\ sea.png);
+}
+
 .box{
-    display:inline-flexbox;
+    display:inline-flex;
     padding:10px;
     height: 100%;
     width: auto;
-    background-color: transparent;
-
+    background-color: whitesmoke;
 }
 
 .wrapper{
     animation: ease-in-out 1.5s;
     text-align: left;
     position: relative;
-    display:inline-flexbox;
+    display:inline-flex;
     padding:2px;
     transition: all 0.5s;
     background-color: transparent;
@@ -32,29 +80,72 @@ nav{
 
 }
 
+.centered{
+    opacity: 0;
+    text-align: left;
+    position: absolute;
+    font-family: "roboto";
+    color: black;
+    font-size: 10px;
+    font-weight: lighter;
+    top: 30%;
+    left: 30%;
+}
 
 
+.box2{
+    width:400px;
+    display:inline-block;
+    height:100%;
+}
 
 p{
-    font-family: roboto monospace;
-    width: 90%;
-    font-size: 30px;
+    font-family:"roboto";    
+    width: 40%;
+    font-size: 18px;
     font-weight: lighter;
     position: flex;
-    text-align: center;
-    color: black;
-    background-color: white;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    text-align: justify;
+    justify-content: left;
+    color: 80% black;
+    background-color: transparent;
 
 }
 
 
 h a{
     text-decoration: none;
-    font-family: roboto monospace;
-    color:white;
-    font-size: 50px;
-    font-weight: bold;
+    font-family:'Helvetica Neue', sans-serif;
+    color:#A61103;
+    font-size: 36px;
+    font-weight: thin;
     position:absolute;
-    top: 30%;
-    
+    top:80%;
+    right: 5%;
+   
+    transition: transform 0.5s ease-in-out;
+
+}
+
+h a:hover{
+    transform: scale (2);
+}
+
+h a:active{
+    transform: scale (0.5);
+}
+
+h1{
+    font-family: "roboto";
+    font-size: 36px;
+    font-weight: bolder;
+    color:#A61103;
+    position: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-stretch: 50%;
+
 }

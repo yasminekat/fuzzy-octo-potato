@@ -40,8 +40,8 @@ p{
 
 .square:active{
     transform: scale(0.5);
-}
 
+}
 body {
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
