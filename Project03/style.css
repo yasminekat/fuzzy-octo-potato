@@ -34,7 +34,7 @@ a:hover{
     align-items: left;
     border-radius: 70%;
     background: white(0, 0, 0);
-    transition: font-size 1s ease, background-color 1s ease,color 1s ease, transform 1s ease;
+    //*transition: font-size 1s ease, background-color 1s ease,color 1s ease, transform 1s ease;*//
 }
 .square:hover{
     transform: scale(1.1);
