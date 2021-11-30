@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+nav{
+    height:10px;
+    background-color: transparent;
+
+}
+
+.box{
+    display:inline-flexbox;
+    padding:10px;
+    height: 100%;
+    width: auto;
+    background-color: transparent;
+
+}
+
+.wrapper{
+    animation: ease-in-out 1.5s;
+    text-align: left;
+    position: relative;
+    display:inline-flexbox;
+    padding:2px;
+    transition: all 0.5s;
+    background-color: transparent;
+    z-index: 0;
+
+}
+
+
+
+
+p{
+    font-family: roboto monospace;
+    width: 90%;
+    font-size: 30px;
+    font-weight: lighter;
+    position: flex;
+    text-align: center;
+    color: black;
+    background-color: white;
+
+}
+
+
+h a{
+    text-decoration: none;
+    font-family: roboto monospace;
+    color:white;
+    font-size: 50px;
+    font-weight: bold;
+    position:absolute;
+    top: 30%;
+    
+}
