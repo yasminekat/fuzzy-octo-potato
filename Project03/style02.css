@@ -99,16 +99,21 @@ section{
 }
 
 
+img{
+    width:100%;
+    height: auto;
+}
+
 .box2{
     width:400px;
-    display:inline-block;
+    display:inline-flexbox;
     height:100%;
 }
 
 p{
-    font-family:"calisto";    
-    width: 40%;
-    font-size: 18px;
+    font-family:"helvetica";    
+    width: 90%;
+    font-size: 36px;
     font-weight: lighter;
     position: flex;
     margin-top: 5%;
@@ -121,12 +126,27 @@ p{
 
 }
 
+.p2{
+    font-family: "roboto";
+    font-size: 40px;
+    font-weight: lighter;
+    font-style: italic;
+    position: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    text-align: justify;
+    justify-content: left;
+    color: 80% rgb(17, 0, 255);
+    background-color: transparent;
+
+}
 
 h a{
     text-decoration: none;
     font-family:'Helvetica Neue', sans-serif;
     color:#A61103;
-    font-size: 36px;
+    font-size: 18px;
     font-weight: thin;
     position:fixed;
     top:90%;
