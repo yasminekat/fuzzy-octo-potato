@@ -22,7 +22,7 @@ html, body{
 
 .container a{
     text-decoration: none;
-    color: whitesmoke;
+    color: fuchsia;
 }
 
 nav {
@@ -31,10 +31,9 @@ nav {
 
 .container {
     display: flex;
-    justify-content: space-around;
-
-    list-style: none;
-    background: fuchsia;
+    justify-content: space-between;
+    list-style: arabic-indic;
+    background: transparent;
     line-height: 30px;
 }
 
@@ -60,14 +59,19 @@ p a{
 }
 p a:link{
     text-decoration: none;
+        text-decoration-color: none;
+
 }
 p a:visited{
     text-decoration: none;
+    text-decoration-color: none;
 }
+
 p a:active{
     text-decoration: none;
+    text-decoration-color: none;
 }
 p a:hover{
-    font-size: 0.8vw;
+    font-size: 1vw;
     font-weight: bolder;
 }
