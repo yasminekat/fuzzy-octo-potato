@@ -88,21 +88,21 @@ width: 25vw;
 
     .English{
       width: 70vw;
-top:0%;
-
-
+      top:0%;
     }
 
     .Portuguese{
       font-style: italic;
-      color:white;    
+      color:blue;    
       width: 70vw;
       margin-top: 10%;
       }
 
       h1{background-color: black(20, 35, 167);}
-      h2{background-color: black(20, 35, 167);}
+      h2{background-color: blue;
+      }
 
+      
       @media screen and (max-width: 600px){
         *{
           background-color: pink;
