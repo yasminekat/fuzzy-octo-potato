@@ -25,10 +25,6 @@ html, body{
     color: fuchsia;
 }
 
-nav {
-    height: 30px;
-}
-
 .container {
     display: flex;
     justify-content: space-between;
