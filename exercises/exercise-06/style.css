@@ -1,0 +1,70 @@
+html{
+    font-family: 'Roboto', sans-serif;  
+  }
+*{
+  background-color: greenyellow;
+}
+
+.major{
+  margin-left: 30vw;
+  margin-top:760vh;
+  display: flex;
+  justify-content: space-between;
+  width: 55vw;
+}
+ 
+h1{
+  background-color:blue;
+ }
+ 
+ h2{
+  background-color: blue;
+ }
+
+.title{
+  background-color: blue ;
+  color: white;
+  width: 25vw;
+  height: 20vh;
+ position:fixed;
+  top:20%;
+  left: 5%;
+  text-align: center;
+  padding-top:50px;
+  
+}
+
+.English{
+width:25vw;
+color: black;
+left: 30%;
+top:50%;
+color: rgb(26, 54, 41);
+}
+
+.Portuguese{
+font-style: italic;
+color:white;    
+width: 25vw;
+}
+
+h1 {
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 0%;
+    width: 300%;
+    background-color: white;
+  }
+
+  to {
+    margin-top: 20%;
+    width: 100%;
+  }
+
+
+  
+}
