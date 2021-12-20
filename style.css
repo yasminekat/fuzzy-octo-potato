@@ -27,14 +27,15 @@ html, body{
 
 .container {
     display: flex;
-    justify-content: space-between;
-    list-style: arabic-indic;
+    width: 1;
+    justify-content: left;
+    flex-wrap: wrap;
     background: transparent;
     line-height: 30px;
 }
 
 li:hover{
-    animation: changeMe 3s ease-in-out
+    animation: changeMe 2s ease-in-out
 }
 
 @keyframes changeMe{
@@ -47,16 +48,15 @@ li:hover{
 
 p a{
     text-decoration: none;
-    align-self: center;
+    align-self: left;
     font-family: "Roboto";
-    font-size: 0.6vw;
-    transition: all 0.5s;
+    font-size: 2vw;
+    transition: all 1s;
     color: BLACK(83, 83, 83);
 }
 p a:link{
     text-decoration: none;
-        text-decoration-color: none;
-
+    text-decoration-color: none;
 }
 p a:visited{
     text-decoration: none;
@@ -68,6 +68,6 @@ p a:active{
     text-decoration-color: none;
 }
 p a:hover{
-    font-size: 1vw;
+    font-size: 4vw;
     font-weight: bolder;
 }

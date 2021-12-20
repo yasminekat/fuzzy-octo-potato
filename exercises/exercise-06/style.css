@@ -2,27 +2,27 @@ html{
     font-family: 'Roboto', sans-serif;  
   }
 *{
-  background-color: greenyellow;
+  background-color: whitesmoke;
 }
 
 .major{
-  margin-left: 30vw;
-  margin-top:760vh;
+  margin-left: 40vw;
+  margin-top: 20vh;
   display: flex;
-  justify-content: space-between;
-  width: 55vw;
+  justify-content: space-around;
+  width: 65vw;
 }
  
 h1{
-  background-color:blue;
+  background-color:fuchsia;
  }
  
  h2{
-  background-color: blue;
+  background-color: fuchsia;
  }
 
 .title{
-  background-color: blue ;
+  background-color: fuchsia ;
   color: white;
   width: 25vw;
   height: 20vh;
@@ -35,17 +35,11 @@ h1{
 }
 
 .English{
-width:25vw;
-color: black;
-left: 30%;
-top:50%;
-color: rgb(26, 54, 41);
-}
-
-.Portuguese{
-font-style: italic;
-color:white;    
-width: 25vw;
+  width:25vw;
+  color: black;
+  left: 30%;
+  top:50%;
+  color: rgb(8, 24, 8);
 }
 
 h1 {
@@ -56,15 +50,53 @@ h1 {
 @keyframes slidein {
   from {
     margin-top: 0%;
-    width: 300%;
-    background-color: white;
+    width: 250%;
+    background-color: black;
   }
 
   to {
-    margin-top: 20%;
+    margin-top: 10%;
     width: 100%;
   }
-
-
-  
 }
+
+/*
+
+
+ 
+h1{
+  background-color: fuchsia;
+  margin:5%;
+  
+ }
+ 
+ h2{
+  background-color: fuchsia;
+  margin:5%;
+ }
+
+ h3{
+  background-color: transparent(8, 24, 8);
+  text-decoration: grey;
+  width: 25vh;
+  height:10vh;
+}
+
+.title{
+  background-color:fuchsia;
+  color: white;
+  width: 25vw;
+  height: 20vh;
+ position:fixed;
+  top:20%;
+  left: 5%;
+  text-align: left;
+  padding-top:50px;
+    
+}
+
+p{
+font-size: 150%;
+
+}
+
