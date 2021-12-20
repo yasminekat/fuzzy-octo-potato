@@ -1,0 +1,132 @@
+html{
+    font-family: 'Roboto', sans-serif;  
+  }
+*{
+  background-color: whitesmoke;
+  margin:0%;
+}
+
+.major{
+  
+  margin-left: 50vw;
+  margin-top: 70vh;
+  display: flex;
+  
+  justify-content: space-between;
+  width: 65vw;
+}
+ 
+h1{
+  background-color: rgb(8, 24, 8);
+  margin:5%;
+  
+ }
+ 
+ h2{
+  background-color: rgb(8, 24, 8);
+  margin:5%;
+ }
+
+.title{
+  background-color: rgb(8, 24, 8);
+  color: white;
+  width: 25vw;
+  height: 20vh;
+ position:fixed;
+  top:20%;
+  left: 5%;
+  text-align: left;
+  padding-top:50px;
+    
+}
+
+p{
+font-size: 150%;
+
+}
+
+.English{
+width:25vw;
+color: black;
+left: 30%;
+top:50%;
+color: rgb(8, 24, 8);
+}
+
+.Portuguese{
+font-style: italic;
+color:white;    
+width: 25vw;
+}
+
+
+@media only screen and (max-width:1024px) {
+  *{
+    background-color: white;
+  }
+  .major{
+  
+   
+   margin:10% auto;
+   flex-direction: column;
+    
+    
+  }
+
+
+
+  .title{
+    background-color: black20, 35, 167);
+    color: white;
+    width: 90vs;
+    height: 25vw;
+    margin:0;
+    text-align: center;
+    position: relative;
+    top: 15%;
+    }
+
+    .English{
+      width: 70vw;
+top:0%;
+
+
+    }
+
+    .Portuguese{
+      font-style: italic;
+      color:white;    
+      width: 70vw;
+      margin-top: 10%;
+      }
+
+      h1{background-color: black(20, 35, 167);}
+      h2{background-color: black(20, 35, 167);}
+
+      @media screen and (max-width: 600px){
+        *{
+          background-color: pink;
+        }
+        p{
+          color: white;
+          font-size: 120%;
+        }
+        .title{
+          background-color: palevioletred;
+        }
+        h1{
+          background-color: purple;
+          margin:2%;
+          
+         }
+         
+         h2{
+          background-color: pink;
+          margin:2%;
+         }
+
+
+      }
+
+
+}
