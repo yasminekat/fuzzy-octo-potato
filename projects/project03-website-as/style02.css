@@ -175,3 +175,17 @@ h1{
     font-stretch: 50%;
 
 }
+
+.footer {
+    display: fixed;
+    margin-bottom: 1%;
+    font-family: 'Franklin Gothic';
+    font-style: italic;
+    font-size: 2vh;
+    background-color: white;
+    color: 80% black;
+    grid-auto-flow: row;
+  }
+  
+  .ticker { grid-area: ticker; 
+  }
