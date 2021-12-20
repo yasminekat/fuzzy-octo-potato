@@ -1,63 +1,27 @@
-let array_one = [
-    "a house of wood",
-    "a house of brick",
-    "a house of broken dishes",
-    "a house of discarded clothing",
-    "a house of dust"
-  ];
+var verbs, nouns, adjectives, adverbs, preposition;
+nouns = ["cat", "watch", "man", "glass", "elephant", "architect", "friend"];
+verbs = ["ran", "sneezed", "coughed", "smiled", "frowned", "clapped", "said"];
+adjectives = ["beautiful", "sick", "big", "cute", "hot", "hard", "rough"];
+adverbs = ["slowly", "elegantly", "precisely", "quickly", "sadly", "humbly", "proudly"];
+preposition = ["down", "into", "up", "on", "upon", "below", "above"];
 
-  let array_two = [
-    "among other houses",
-    "among small hills",
-    "among high montains",
-    "by a river",
-    "by an abandoned lake"
-  ];
+function randGen() {
+  return Math.floor(Math.random() * 5);
+}
 
-  function renderPoem(){
-      //0. grab the poem div 
-      let poem = document.querySelector(".poem");
+function sentence() {
+  var rand1 = Math.floor(Math.random() * 7);
+  var rand2 = Math.floor(Math.random() * 7);
+  var rand3 = Math.floor(Math.random() * 7);
+  var rand4 = Math.floor(Math.random() * 7);
+  var rand5 = Math.floor(Math.random() * 7);
+  var rand6 = Math.floor(Math.random() * 7);
 
-      //1.grab random element from array 1 
-      let element_from_array_one = array_one[Math.floor(Math.random()*array_one.length)];
+  //                var randCol = [rand1,rand2,rand3,rand4,rand5];
+  //                var i = randGen();
+  
+  var content = "The " + adjectives[rand1] + " " + nouns[rand2] + " " + adverbs[rand3] + " " + verbs[rand4] + " because some " + nouns[rand1] + " " + adverbs[rand1] + " " + verbs[rand1] + " " + preposition[rand1] + " a " + adjectives[rand2] + " " + nouns[rand5] + " which, became a " + adjectives[rand3] + ", " + adjectives[rand4] + " " + nouns[rand6] + ".";
 
-      //2. grab ramdom element from array 2
-      let element_from_array_two = array_two[Math.floor(Math.random()*array_two.length)];
-
-      //3. create a new paragraph element 
-      let paragraph = document.createElement("p");
-
-      //4.append the paragraph to the the poem div
-  }
-
-  let btn = document.querySelector("button");
-  btn.addEventListener("click", renderPoem)
-
-
-  //* console.log('it works') min
-
- var verbs, nouns, adjectives;
-
- nouns = ["heart", "rainbow", "ocean"];
- verbs = ["look", "make", "continue"];
- adjectives = ["good", "different", "possible"];
- 
- function randomGen(){
-     return Math.floor(Math.random() * 3);
- }
- 
- function sentence() {
-     
- var noun, verb, adjective, text;
- 
- noun = nouns[Math.floor(Math.random() * nouns.length)];
- verb = verbs[Math.floor(Math.random() * verbs.length)];
- adjective = adjectives[Math.floor(Math.random() * adjectives.length)];
- 
- text = `My ${noun} leaps ${adjectives} when I ${verb} a rainbow in the sky.`;
- 
- document.getElementById('sentence').innerHTML = text;
- 
- }
- console.log(sentence);
- sentence(); //*
+  document.getElementById('sentence').innerHTML = "&quot;" + content + "&quot;";
+};
+sentence();

@@ -55,7 +55,7 @@ color: rgb(8, 24, 8);
 
 .Portuguese{
 font-style: italic;
-color:white;    
+color:greenyellow;    
 width: 25vw;
 }
 
@@ -108,7 +108,7 @@ width: 25vw;
           background-color: pink;
         }
         p{
-          color: white;
+          color: blueviolet;
           font-size: 120%;
         }
         .title{

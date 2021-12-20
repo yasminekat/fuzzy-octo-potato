@@ -1,58 +1,52 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
-*{
-    margin: 2px;
-    padding: 10px;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto";
-    font-weight: bolder;
-    background-color: blue;
-}
-.group{
-        padding: 2px;
-        align-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: black;
-        width: 70%;
-    }
-    
-h2{
-        color: lightgrey;
-        font-size: 40px;
-}
+  }
   
-header {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: left;
-        padding: 10px;
-        color: blue(255, 0, 106);
-        font-size: 80px;   
-        background-color: yellow;
-        height: 40%;
-        width: auto;
-    }
+ 
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.68em;
+  }
 
-footer{
-        text-align: center;
-        color: whitesmoke;
-        font-size: 10px;
-}
-body{
-        align-content: left;
-}
-
-aside{
-        font-size: 30px;
-        color: rgb(111, 111, 119)
-        (255, 0, 106);
-        margin: 10px auto;       
-        width: auto;
-        height: auto;
-        background-color: whitesmoke;
-}
-
-h3{
-        text-align:right;
-}
+  
+  .main {
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+    padding: 24px;
+  }
+  
+  .container {
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    padding: 20px 40px;
+    width: 50%;
+    line-height: 1.68;
+  }
+  
+  h1 {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+    color: beige;
+    display:inline-flex;
+    font-size: 6em;
+    line-height: 3em;
+  }
+  
+  .pullquote {
+    color: #d3d3d3;
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+    letter-spacing: 1.5px;
+    font-size: 1em;
+  }
+  
