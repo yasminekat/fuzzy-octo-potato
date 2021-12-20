@@ -180,7 +180,6 @@ h1{
     position: fixed;
     width: 100%;
     top: 95%;
-    z-index:1;
     display: flex;
     font-family: 'franklin gothic';
     font-style: italic;

@@ -45,7 +45,7 @@ a, a:active, a:visited{
 p{
   font-family: "roboto";
   font-size: 40px;
-  font-weight: lighter;
+  font-weight: bolder;
   color:#A61103;
   }
 .square:hover{
