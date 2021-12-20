@@ -1,15 +1,32 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+html, body{
+    animation: Fade 1.0s ease-in-out 0.0s;
+    
+  }
+  body{
+      padding: 2vw;
+  }
+
 /*font-family: 'Roboto Mono', monospace;*/
 /* fix nav below*/
 
 
+.container a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
 nav {
-    height: 60px;
+    height: 30px;
 }
 
 .container {
@@ -17,13 +34,8 @@ nav {
     justify-content: space-around;
 
     list-style: none;
-    background: tomato;
-    line-height: 60px;
-}
-
-.container a{
-    text-decoration: none;
-    color: white;
+    background: fuchsia;
+    line-height: 30px;
 }
 
 li:hover{
@@ -35,4 +47,27 @@ li:hover{
     50%{background-color: #cc000c;}
     75%{background-color: #800000;}
     100%{background-color: tomato;}
+}
+
+
+p a{
+    text-decoration: none;
+    align-self: center;
+    font-family: "Roboto";
+    font-size: 0.6vw;
+    transition: all 0.5s;
+    color: BLACK(83, 83, 83);
+}
+p a:link{
+    text-decoration: none;
+}
+p a:visited{
+    text-decoration: none;
+}
+p a:active{
+    text-decoration: none;
+}
+p a:hover{
+    font-size: 0.8vw;
+    font-weight: bolder;
 }

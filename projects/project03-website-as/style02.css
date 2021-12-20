@@ -53,6 +53,7 @@ li{
 
 li hover{
     transform: scale(2);
+    animation: changeMe 2s ease-in-out
 }
 
 /*for images..*/
