@@ -9,7 +9,7 @@
     background-color: blue;
 }
 .group{
-        padding: 5px;
+        padding: 2px;
         align-content: center;
         margin-left: auto;
         margin-right: auto;
@@ -35,24 +35,24 @@ header {
     }
 
 footer{
-        text-align: right;
+        text-align: center;
         color: whitesmoke;
-        font-size: 15px;
+        font-size: 10px;
 }
 body{
         align-content: left;
 }
+
 aside{
-        font-size: 25px;
+        font-size: 30px;
         color: blue
         (255, 0, 106);
         margin: 10px auto;       
         width: auto;
         height: auto;
         background-color: whitesmoke;
+}
 
-    }
 h3{
         text-align:right;
-
 }
