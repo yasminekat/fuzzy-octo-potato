@@ -3,7 +3,8 @@ body {
     padding: 0;
     font-family: sans-serif;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 2;
+    ;
   }
   
   h1 {
@@ -22,53 +23,53 @@ body {
   }
   #switcher li {
     float: left;
-    width: 30px;
-    height: 30px;
-    margin: 0 15px 15px 0;
-    border-radius: 30px;
-    border: 3px solid black;
+    width: 40px;
+    height: 40px;
+    margin: 0 25px 25px 0;
+    border-radius: 50px;
+    border: 1px solid black;
   }
   
   /* button colors */
   
-  #greyButton {
-    background-color: #C8C8C8;
+  #redButton {
+    background-color: #ff0000;
     
   }
   
   #greenButton {
-    background: #E8FF66;
+    background: #008000;
     
   }
   
-  #pinkButton {
-    background: #FB0094;
+  #blueButton {
+    background: #0000ff;
     
   }
   
   #yellowButton {
-    background: #FFC800;
+    background: #ffff00;
     
   }
   
   /* background colors */
   
-  .greyScheme {
-    background-color: #C8C8C8;
+  .redScheme {
+    background-color: red;
   
   }
   
   .greenScheme {
-    background-color: #E8FF66;
+    background-color: green;
 
   }
   
   .yellowScheme {
-    background-color: #FFC800;
+    background-color: yellow;
  
   }
   
-  .pinkScheme {
-    background-color: #FB0094;
+  .blueScheme {
+    background-color: blue;
 
   }

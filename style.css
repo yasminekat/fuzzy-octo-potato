@@ -13,25 +13,23 @@ html, body{
     
   }
   body{
-      padding: 2vw;
-  }
-
-/*font-family: 'Roboto Mono', monospace;*/
-/* fix nav below*/
-
+      padding: 3vw;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 .container a{
     text-decoration: none;
-    color: fuchsia;
+    color: gray;
 }
 
 .container {
     display: flex;
     width: 1;
-    justify-content: left;
+    height: 1;
+    justify-content: space-between;
     flex-wrap: wrap;
     background: transparent;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 li:hover{
@@ -52,7 +50,7 @@ p a{
     font-family: "Roboto";
     font-size: 2vw;
     transition: all 1s;
-    color: BLACK(83, 83, 83);
+    color: transparent;
 }
 p a:link{
     text-decoration: none;
@@ -68,6 +66,7 @@ p a:active{
     text-decoration-color: none;
 }
 p a:hover{
-    font-size: 4vw;
+    font-size: 5vw;
     font-weight: bolder;
+    color: fuchsia;
 }
