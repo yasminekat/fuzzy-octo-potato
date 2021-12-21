@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@900&display=swap');
 
+
+/*from minsung
+
 *{
     margin:0;
     padding:0;
@@ -121,8 +124,6 @@ li:hover{
 }
 
 
-
-
 p{
     font-family: "Anton";
     width:100%;
@@ -154,3 +155,5 @@ h a:hover{
 h a:active{
   transform: scale(0.3);
 }
+
+*/

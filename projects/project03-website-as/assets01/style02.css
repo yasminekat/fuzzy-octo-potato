@@ -53,8 +53,6 @@ li a:hover{
     color: #A61103;
 }
 
-
-
 .container2{
     height: 100%;
     display:inline-flexbox;
@@ -162,6 +160,14 @@ h1{
     margin-left: 5%;
     font-stretch: 50%;
 
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(18, 5vw);
+    grid-gap: 15px;
 }
 
 .footer {
