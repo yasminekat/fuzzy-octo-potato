@@ -3,24 +3,22 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-
 }
 
 nav{
-    height:20px;
+    height: 20px;
+    margin-top: 1%;
     background-color: #A61103;
     position:fixed;
 }
 
 .navbar{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index:1;
+    position: relative;
+    width: auto;
     display: flex;
     justify-content: space-around;
     list-style: none;
-    background: #A61103;
+    background: black;
     line-height: 20px;
     text-decoration: none;
 
@@ -37,7 +35,7 @@ nav{
 
 .container a{
     text-decoration: none;
-    color: whitesmoke;
+    color: black;
     font-family: "roboto";
     font-weight: lighter;
     width: 90%;
@@ -46,59 +44,79 @@ nav{
 
 li{
     padding: 10px;
-    background: #A61103;
+    background: transparent;
+}
+
+li a:hover{
+    font-size: 2vw;
     font-weight: bolder;
-
+    color: #A61103;
 }
 
-li hover{
-    transform: scale(2);
-    animation: changeMe 2s ease-in-out
-}
 
-/*for images..*/
-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align:center;
-    width: 100%;
-    height: auto;
-    scroll-snap-align: center;
-}
 
-.box{
-    display:inline-flex;
-    padding:10px;
+.container2{
     height: 100%;
-    width: auto;
-    background-color: whitesmoke;
+    display:inline-flexbox;
+    align-content: left;
+ 
+}
+a, a:active, a:visited{
+    text-decoration: none;
+      color:white;
 }
 
-.wrapper{
-    animation: ease-in-out 1.5s;
-    text-align: left;
-    position: relative;
-    display:inline-flex;
-    padding:2px;
-    transition: all 0.5s;
-    background-color: transparent;
-    z-index: 0;
-
-}
-
-.centered{
-    opacity: 0;
-    text-align: left;
-    position: absolute;
+.square{
+    position:absolute;
+    top: 10px;
+    left:10%;
+    background-color: white;
+    opacity: 75%;
+    display:inline-block;
     font-family: "roboto";
-    color: black;
-    font-size: 10px;
-    font-weight: lighter;
-    top: 30%;
-    left: 30%;
+    font-weight: bolder;
+    font-size: 1vh;
+    width: 500px;;
+    height: auto;
+    text-align: left;
+    transition: all 0.5s;
 }
 
+.square2{
+  position:absolute;
+  top:50%;
+  left:70%;
+  background-color:whitesmoke;
+  display:inline-block;
+  font-family: "roboto";
+  width: 500px;
+  height: 500px;
+  text-align: left;
+  transition: all 0.5s;
+}
+
+p{
+    font-family: "roboto";
+    WIDTH: 70%;
+    font-size: 40px;
+    font-weight: lighter;
+    position: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    text-align: justify;
+    justify-content: left;
+    color: black;
+    background-color: transparent;
+}
+
+.square:hover{
+      transform: scale(1.1);
+  }
+  
+.square:active{
+      transform: scale(0.5);
+  }
 
 img{
     width:100%;
@@ -106,51 +124,21 @@ img{
 }
 
 .box2{
-    width:400px;
+    margin-bottom: 10%;
+    width:70%;
     display:inline-flexbox;
     height:100%;
 }
 
-p{
-    font-family:"helvetica";    
-    width: 90%;
-    font-size: 36px;
-    font-weight: lighter;
-    position: flex;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-bottom: 5%;
-    text-align: justify;
-    justify-content: left;
-    color: 80% black;
-    background-color: transparent;
-
-}
-
-.p2{
-    font-family: "roboto";
-    font-size: 40px;
-    font-weight: lighter;
-    font-style: italic;
-    position: flex;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-bottom: 5%;
-    text-align: justify;
-    justify-content: left;
-    color: 80% rgb(17, 0, 255);
-    background-color: transparent;
-
-}
 
 h a{
     text-decoration: none;
     font-family:'Helvetica Neue', sans-serif;
     color:#A61103;
-    font-size: 18px;
+    font-size: 5vh;
     font-weight: thin;
     position:fixed;
-    top:90%;
+    top: 85%;
     right: 5%;
     transition: transform 0.5s ease-in-out;
 
@@ -180,14 +168,10 @@ h1{
     position: fixed;
     width: 100%;
     top: 95%;
-    display: flex;
     font-family: 'franklin gothic';
     font-style: italic;
     font-size: 2.5vh;
     background-color: rgba(0, 0, 0, 0.829);
     color: white;
-    grid-auto-flow: row;
   }
   
-  .ticker { grid-area: ticker; 
-  }
